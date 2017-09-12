@@ -5,6 +5,15 @@ Author: Your Name
 Developer @GA in NYC
 */
 
+/*
+COLORS
+benefits background color: #f0efef
+yellow: #f9e42e
+dark blue: #033048
+light grey: #606161
+almost black: #121212
+*/
+
 
 /******************************************
 /* SETUP
@@ -65,19 +74,72 @@ body {
 
 }
 
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  margin-top: 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+main {
+  font-size: 13px;
+  font-weight: 300;
 }
 
 footer {
 
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+}
 
+.tagline {
+  font-size: 24px;
+  font-weight: 600;
+}
 
+.article-title {
+  font-size: 20px;
+  font-weight: 600;
+}
 
+.quote {
+  font-size: 18px;
+}
+
+.quote-text {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author {
+  font-weight: 600;
+}
+
+.copyright-text {
+  font-size: 9px;
+  font-weight: 600;
+}
+
+/* -- BUTTONS -- */
+
+.btn {
+  font-weight: 800;
+  border-radius: 5px;
+}
+
+.btn-head {
+  font-size: 14px;
+}
+
+.btn-signup {
+  font-size: 12px;
+}
 
