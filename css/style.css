@@ -137,16 +137,26 @@ header .logo {
   margin-left: 40px;
 }
 
-.quote {
+.testimonial {
   font-size: 18px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  padding: 40px 20%;
+  text-align: center;
+  color: #f0efef;
 }
 
-.quote-text {
+.testimonial div {
+  width: 100%;
+  max-width: 600px;
+}
+
+.testimonial-text {
   font-weight: 300;
   font-style: italic;
 }
 
-.quote-author {
+.testimonial-author {
   font-weight: 600;
 }
 
