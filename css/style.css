@@ -7,7 +7,7 @@ Developer @GA in NYC
 
 /*
 COLORS
-benefits background color: #f0efef
+benefits background color: 
 yellow: #f9e42e
 dark blue: #033048
 light grey: #606161
@@ -83,7 +83,7 @@ header {
   background-size: cover;
   margin-top: 0;
   font-size: 24px;
-  color: #fff;
+  color: #f0efef;
   height: 100%;
 }
 
@@ -112,9 +112,29 @@ header .logo {
   text-align: center;
 }
 
+.benefits {
+  padding: 25px;
+  background-color: #f0efef;
+  color: #616161;
+}
+
 .article-title {
   font-size: 20px;
   font-weight: 600;
+  color: #121212;
+}
+
+.article-content {
+  max-width: 325px;
+}
+
+.article-content p {
+  margin-left: 10px;
+}
+
+.article-content ul {
+  margin-top: 20px;
+  margin-left: 40px;
 }
 
 .quote {
@@ -149,6 +169,7 @@ header .logo {
 
 .btn-head {
   font-size: 14px;
+  color: #121212;
   background-color: #f9e42e;
 }
 
